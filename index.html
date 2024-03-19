@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Math Website">
+    <meta name="keywords" content="immaculata, icd2o">
+    <meta name="author" content="Luke Di Bert">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Title -->
+    <title>Math</title>
   </head>
   <body>
-    <p>Paragraph</p>
+    <script src="./js/script.js"></script>
+    <h1>Some math with JS</h1>
+    <p>The dimensions of a rectangle are 5cm by 3cm</p>
+    <!-- The text and math-->
+    <div id="area-math">The area is ?</div>
+    <div id="perimeter-math"">The perimeter is ?</div>
+    <br>
+    <!-- Button that solves the math -->
+    <button onclick="doAreaClicked()">Solve Area</button>
+    <button onclick="doPerimeterClicked()">Solve Perimeter</button>
   </body>
 </html>

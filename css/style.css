@@ -2,3 +2,17 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+h1{
+  font-weight:bold;
+  color:darkblue;
+}
+body{
+  background-color: lightblue;
+}
+div{
+  margin-left: 10px;
+}
+
+button{
+  margin: 10px;
+}
